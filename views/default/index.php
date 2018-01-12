@@ -11,9 +11,8 @@ $this->title = Yii::t('modules/notifications', 'Notifications');
         <a class="btn btn-danger" href="<?= Url::toRoute(['/notifications/default/delete-all']) ?>"><?= Yii::t('modules/notifications', 'Delete all'); ?></a>
         <a class="btn btn-secondary" href="<?= Url::toRoute(['/notifications/default/read-all']) ?>"><?= Yii::t('modules/notifications', 'Mark all as read'); ?></a>
     </div>
-
     <h1>
-        <span class="icon icon-bell"></span>
+        <span class="fa fa-bell"></span>
         <a href="<?= Url::to(['/notifications/manage']) ?>"><?= Yii::t('modules/notifications', 'Notifications') ?></a>
     </h1>
 </div>
