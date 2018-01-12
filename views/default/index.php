@@ -4,6 +4,12 @@ use yii\widgets\LinkPager;
 
 $this->title = Yii::t('modules/notifications', 'Notifications');
 
+/*
+
+LitRail Edition
+
+*/
+
 ?>
 
 <div class="page-header">
